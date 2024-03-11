@@ -211,7 +211,8 @@ const gato = new Gato("Mingau", 3, "Branco");
 gato.descrever();
 gato.miar();
 const cachorro = new Cachorro("Rock", 5);
-cachorro.descrever();```
+cachorro.descrever() ```;
+
 ______
 
 **9)** Vamos criar um programa em JavaScript para somar notas!
@@ -259,7 +260,7 @@ class SomadorDeNotas {
 
 const notas = new SomadorDeNotas();
 notas.adicionarNota(10, 5, 2, 3);
-notas.verTotal(); ```
+notas.verTotal() ```;
 ______
 
 **10)** Imagine que você está criando um programa em JavaScript para uma escola. Neste programa, existem diferentes tipos de funcionários, cada um com suas próprias características. Considere as seguintes classes:
