@@ -82,6 +82,7 @@ class Funcionario {
   }
 }
 
+//Questao 10
 //classe Professor que herda de Funcionario
 class Professor extends Funcionario {
   constructor(nome, idade, disciplina, horasDeAula) {
