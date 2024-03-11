@@ -21,7 +21,7 @@ print(a)
 
 ![Uma imagem](assets/ex01.PNG)
 
-Escolha a opção que responde corretamente:
+Escolha a opção que responde corretamente: ``A``
 
 a) Imprime os números pares de 1 a 10. RESPOSTA CORRETA
 
@@ -39,7 +39,7 @@ ______
 
 No lugar onde está escrito “// linha” qual das opções abaixo deve estar para funcionar corretamente o código?
 
-A) let carro = new Carro("Toyota"); RESPOSTA CORRETA
+A) let carro = new Carro("Toyota"); RESPOSTA CORRETA ``A``
 
 B) let ligar = new ligar("Toyota");
 
@@ -55,7 +55,7 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) 18 RESPOSTA CORRETA
+A) 18 RESPOSTA CORRETA ``A``
 
 B) 16
 
@@ -67,7 +67,7 @@ ______
 
 **4)** Como você criaria um método `acelerar()` em uma classe `Carro`, que recebe um parâmetro `velocidade` e o adiciona a um atributo `velocidadeAtual`?
 
-A) ![Uma imagem](assets/ex04_1.PNG) RESPOSTA CORRETA
+A) ![Uma imagem](assets/ex04_1.PNG) RESPOSTA CORRETA ``A``
 
 B) ![Uma imagem](assets/ex04_2.PNG)
 
@@ -79,7 +79,7 @@ ______
 
 **5)** Qual a forma correta de definir uma classe Carro em JavaScript, com um método ligar() e um atributo marca?
 
-A) ![Uma imagem](assets/ex05_1.PNG) RESPOSTA CORRETA
+A) ![Uma imagem](assets/ex05_1.PNG) RESPOSTA CORRETA ``A``
 
 B) ![Uma imagem](assets/ex05_2.PNG)
 
@@ -95,7 +95,7 @@ ______
 
 Qual será a saída do código acima?
 
-A) "Olá, meu nome é João. Olá, meu nome é Maria." RESPOSTA CORRETA
+A) "Olá, meu nome é João. Olá, meu nome é Maria." RESPOSTA CORRETA ``A``
 
 B) "Olá, meu nome é ."
 
