@@ -119,7 +119,40 @@ Criando e manipulando Animais:
 - Para cada animal, chame o método descrever() para ver a descrição no console.
 
 Dica: Utilize `console.log()` para exibir as informações!
+``` //Questao 7 e 8)
+class Animal {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
 
+  descrever() {
+    console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos`);
+  }
+}
+
+class Cachorro extends Animal {
+  constructor(nome, idade) {
+    super(nome, idade); //pega os atributos da classe pai: "Animal"
+  }
+}
+
+class Gato extends Animal {
+  constructor(nome, idade, cor) {
+    super(nome, idade);
+    this.cor = cor;
+  }
+
+  //metodo especifico para a classe Gato
+  miar() {
+    console.log("Miau");
+  }
+}
+const gato = new Gato("Mingau", 3, "Branco");
+gato.descrever();
+gato.miar();
+const cachorro = new Cachorro("Rock", 5);
+cachorro.descrever();```
 ______
 
 **8)** Nos últimos dias tivemos a oportunidade de ter contato com Programação Orientada a Objetos, e tivemos contato com o tema "herança". Herança é um princípio de orientação a objetos, que permite que classes compartilhem atributos e métodos. Ela é usada na intenção de reaproveitar código ou comportamento generalizado ou especializar operações ou atributos. Então vamos praticar esse conteúdo nessa questão.
@@ -145,7 +178,40 @@ Chamando os Métodos:
 
 Dica: Utilize console.log() para exibir as informações!
 
+```//Questao 7 e 8)
+class Animal {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
 
+  descrever() {
+    console.log(`Meu nome é ${this.nome} e tenho ${this.idade} anos`);
+  }
+}
+
+class Cachorro extends Animal {
+  constructor(nome, idade) {
+    super(nome, idade); //pega os atributos da classe pai: "Animal"
+  }
+}
+
+class Gato extends Animal {
+  constructor(nome, idade, cor) {
+    super(nome, idade);
+    this.cor = cor;
+  }
+
+  //metodo especifico para a classe Gato
+  miar() {
+    console.log("Miau");
+  }
+}
+const gato = new Gato("Mingau", 3, "Branco");
+gato.descrever();
+gato.miar();
+const cachorro = new Cachorro("Rock", 5);
+cachorro.descrever();```
 ______
 
 **9)** Vamos criar um programa em JavaScript para somar notas!
@@ -193,21 +259,7 @@ class SomadorDeNotas {
 
 const notas = new SomadorDeNotas();
 notas.adicionarNota(10, 5, 2, 3);
-notas.verTotal();
-
-//Questao 10)
-
-class Funcionario {
-  constructor(nome, idade, salario) {
-    this.nome = nome;
-    this.idade = idade;
-    this.salario = salario;
-  }
-
-  calcularSalario() {
-    return this.salario;
-  }
-} ``` 
+notas.verTotal(); ```
 ______
 
 **10)** Imagine que você está criando um programa em JavaScript para uma escola. Neste programa, existem diferentes tipos de funcionários, cada um com suas próprias características. Considere as seguintes classes:
